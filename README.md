@@ -1,9 +1,5 @@
 ## Project Title：
 美食餐廳網，在這裡可以找到想要的餐廳並瀏覽詳細資訊。
-## 圖片預覽
-![1](https://imgur.com/vovTDAY)
-![2](https://imgur.com/ytILyef)
-![3](https://imgur.com/1TD7ujj)
 ## Installing：
 1. 打開你的 terminal，Clone 此專案至本機電腦
 > git clone https://github.com/good800322/restaurant-list
