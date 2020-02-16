@@ -28,7 +28,6 @@ app.get('/restaurants/:id', (req, res) => {
 app.get('/search', (req, res) => {
   const restaurants = dataList.results.filter(item =>
     item.name.toLowerCase().includes(req.query.keyword.toLowerCase()) || item.category.includes(req.query.keyword))
-  console.log(restaurants)
   res.render('index', { restaurants: restaurants, keyword: req.query.keyword })
 })
 
